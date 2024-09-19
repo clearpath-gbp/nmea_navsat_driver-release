@@ -2,6 +2,22 @@
 Changelog for package nmea_navsat_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.3 (2024-09-19)
+------------------
+* Merge pull request `#1 <https://github.com/clearpathrobotics/nmea_navsat_driver/issues/1>`_ from clearpathrobotics/lcamero/tf_depend
+  Add exec_depend for tf_transformations
+* Add exec_depend for tf_transformations
+* Contributors: Luis Camero, Tony Baltovski
+
+2.0.2 (2024-05-21)
+------------------
+* Changed tf_transformations to python3-transforms3d.
+* Sentence field must be of type str (`#173 <https://github.com/clearpathrobotics/nmea_navsat_driver/issues/173>`_)
+  In nmea_topic_serial_reader, sentence field is a bytes object and should be a str object.
+  Fixes: https://github.com/ros-drivers/nmea_navsat_driver/issues/172
+  Co-authored-by: Fletcher Thompson <fletho@dtu.dk>
+* Contributors: FletcherFT, Tony Baltovski
+
 2.0.1 (2023-08-31)
 ------------------
 * Fix parsing of true_course field in VTG message (`#165 <https://github.com/evenator/nmea_navsat_driver/issues/165>`_)

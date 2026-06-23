@@ -79,7 +79,7 @@ tracks:
     release_tag: :{version}
     ros_distro: jazzy
     vcs_type: git
-    vcs_uri: https://github.com/ros-drivers/nmea_navsat_driver.git
+    vcs_uri: https://github.com/clearpathrobotics/nmea_navsat_driver.git
     version: :{auto}
   rolling:
     actions:

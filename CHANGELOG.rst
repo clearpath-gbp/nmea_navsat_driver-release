@@ -2,6 +2,11 @@
 Changelog for package nmea_navsat_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.4 (2026-06-23)
+------------------
+* Removed tf_transformations dependency.
+* Contributors: Tony Baltovski
+
 2.0.3 (2024-09-19)
 ------------------
 * Merge pull request `#1 <https://github.com/clearpathrobotics/nmea_navsat_driver/issues/1>`_ from clearpathrobotics/lcamero/tf_depend

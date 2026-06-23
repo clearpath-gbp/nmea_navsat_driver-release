@@ -1,3 +1,26 @@
+## nmea_navsat_driver (humble) - 2.0.4-1
+
+The packages in the `nmea_navsat_driver` repository were released into the `humble` distro by running `/usr/bin/bloom-release nmea_navsat_driver -r humble -t humble` on `Tue, 23 Jun 2026 15:25:50 -0000`
+
+The `nmea_navsat_driver` package was released.
+
+Version of package(s) in repository `nmea_navsat_driver`:
+
+- upstream repository: https://github.com/clearpathrobotics/nmea_navsat_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.0.3-1`
+- new version: `2.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## nmea_navsat_driver (jazzy) - 2.0.1-1
 
 The packages in the `nmea_navsat_driver` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release nmea_navsat_driver -r jazzy -t jazzy` on `Tue, 16 Jun 2026 00:34:38 -0000`
